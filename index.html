@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+</head>
+<body>
+    <nav id="navigation">
+        <div class="logo">Iva Gjeorgjievska</div>
+        <div>
+            <ul class="links">
+                <li> <a href="#sectionAbout">Home</a></li>
+                <li> <a href="#education">Education</a></li>
+                <li> <a href="#projects">Projects</a></li>
+                <li> <a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger">
+        <div class="logo">Iva Gjeorgjievska</div>
+        <div claa="hamburger-menu">
+            <div class="hamburger-icon" onclick="menu()">
+            <span></span>
+            <span></span>
+            <span></span>
+            </div>
+            <div class="hamburger-menu-links">
+                    <li> <a href="#sectionAbout" onclick="menu()">Home</a></li>
+                    <li> <a href="#education" onclick="menu()">Education</a></li>
+                    <li> <a href="#projects" onclick="menu()">Projects</a></li>
+                    <li> <a href="#contact" onclick="menu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="sectionAbout">
+        <div class="picture">
+            <img src="images/aboutPhoto.jpg">
+        </div>
+        <div class="sectionText">
+            <p class="introduction">Hello, I am </p>
+            <h1 class="myName">Iva Gjeorgjievska</h1>
+            <p class="introduction2">student at the Faculty of Computer Science and Engineering</p>
+            <div class="button_style">
+                <button onclick="window.open('./CVTemplate.pdf')">Download my CV</button>
+                <button onclick="location.href='#contact'">Contact Info</button>
+        </div>
+        
+    </div>
+    </section>
+    <section id="education">
+        <p class="introduction">Get to know more</p>
+        <h1 class="myName">About my education</h1>
+          <div class="Education-container">
+            <div class="Education-container-detials">
+                <div class="details-container">
+                    <img class="education-icon" src="images/Education,_Studying,_University,_Alumni_-_icon.png">
+                    <h3>High School</h3>
+                    <p>4 years </br> Gimnazija "Goce Delchev" Kumanovo</p>
+                </div>
+                <div class="details-container">
+                    <img class="education-icon" src="images/Education,_Studying,_University,_Alumni_-_icon.png">
+                    <h3>University</h3>
+                    <p>1 year (3 years more to go) </br> Ss. Cyril and Methodius University in Skopje </br> Faculty of Computer Science and Engineering</p>
+                </div>
+            </div>
+            <div class="text-container">
+                <p>Studying at Gimnazija Goce Delchev High School for four years has been an exhilarating journey. Immersed in physics, chemistry, and biology, I delved into the mysteries of the natural world. Despite my love for these sciences, I discovered a new passion for coding and technology along the way. Balancing experiments with programming projects, I found joy in blending scientific inquiry with tech innovation. Gimnazija Goce Delchev didn't just teach me about the world; it sparked my curiosity and creativity, paving the way for a future where science and technology converge.</p>
+                <p>Studying Software Engineering at the Faculty of Computer Science and Engineering has been an exhilarating journey. With three years left to finish, I've immersed myself in the world of coding, algorithms, and tech innovation. Each project sharpens my skills and fuels my passion for creating and problem-solving. I’m excited for what the next few years hold as I continue to push boundaries and transform ideas into reality in the dynamic field of software engineering.</p>
+            </div>
+          </div>
+        </div>
+        <img class="arrow" src="images/toppng.com-arrow-icon-in-flat-style-digital-arrow-vector-497x429.png"
+        onclick="location.href='#projects'">
+    </section>
+
+    <section id="projects">
+        <p class="introduction">Check out my</p>
+        <h3 class="myName">Web Design projects</h3>
+        <div class="project-container">
+            <div class="project-section">
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img class="project-img" src="images/firstProject.png">
+                </div>
+                <div>
+                    <h2 class="project-title">First Project</h2>
+                    <div class="button_container">
+                    <button onclick="window.open('./firstProjectInPdf.pdf')">Click to see</button>
+                </div> 
+            </div>
+        </div>
+        <div class="details-container color-container">
+            <div class="article-container">
+                <img class="project-img" src="images/secondProject.png">
+            </div>
+            <div>
+                <h2 class="project-title">Second Project</h2>
+                <div class="button_container">
+                    <button onclick="window.open('./secondProjectInPdf.pdf')">Click to see</button>
+            </div> 
+        </div>
+    </div>
+</div>
+</div>
+<img class="arrow" src="images/toppng.com-arrow-icon-in-flat-style-digital-arrow-vector-497x429.png"
+onclick="location.href='#contact'">
+</section>
+<section id="contact">
+    <p class="introduction">One click and</p>
+    <h1 class="myName">Contact Me</h1>
+    <div class="container">
+        <div class="contact-info">
+            <p>Name: Iva Gjeorgjievska</p>
+            <p>Email: <a href="mailto:igeorgievska2@gmail.com">igeorgievska2@gmail.com</a></p>
+        </div>
+        <div class="social-media">
+            <div class="icon-picture">
+                <a href="https://twitter.com/Georgievsk24996" class="twitter" target="_blank">
+                    <img src="images/vector-new-twitter-logo-x-600w-2346762565.png" alt="X">
+                    X
+                </a>
+            </div>
+            <div class="icon-picture">
+                <a href="https://www.facebook.com/iva.georgievska.9?mibextid=ZbWKwL" class="facebook" target="_blank">
+                    <img src="images/facebook.png" alt="Facebook">
+                    Facebook
+                </a>
+            </div>
+            <div class="icon-picture">
+                <a href="https://www.instagram.com/ivagjeorgjievska?igsh=ajB6Ymo3cmVjYmNw" class="instagram" target="_blank">
+                    <img src="images/38-instagram-2-512.png" alt="Instagram">
+                    Instagram
+                </a>
+            </div>
+            <div class="icon-picture">
+                <a href="https://github.com/IvaGjeorgjievska" class="github" target="_blank">
+                    <img src="images/github (1).png" alt="GitHub">
+                    GitHub
+                </a>
+            </div>
+        </div>
+        <form action="submit_form.php" method="post">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+            <input type="submit" value="Send Message">
+        </form>
+    </div>
+    <img class="arrowfooter" src="images/arrow2.png"
+    onclick="location.href='#sectionAbout'">
+</section>
+<footer>
+    <p>Copyright &#169; 2024 Iva Gjeorgjievska. All Rights Reserved.</p>
+</footer>
+    <script src="script.js"></script>
+    
+</body>
+</html>
